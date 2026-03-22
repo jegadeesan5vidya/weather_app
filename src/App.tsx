@@ -42,7 +42,7 @@ const App = () => {
     queryKey: ["geocode", {location}],
     queryFn: async () => {
       const res = await getGeoCode(location); 
-      //console.log("Hello there location ", res)
+      //console.log("Hello there location now is ", res)
       //console.log("Setting the location name (geocode method) ",res.name)
       setPlace(res.name)        
       return res;

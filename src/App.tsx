@@ -86,10 +86,10 @@ const App = () => {
       // Refer to the calculation w-full lg:w-[calc(100dvw - var(--sidebar-width))]
       }
       <MobileHeader setIsSidePanelOpen={setIsSidePanelOpen} />
-      <div className="flex flex-col p-6 pt-4 xs:pt-6  gap-8 w-full lg:w-[calc(100dvw-var(--sidebar-width))] 2xl:h-screen 2xl:min-h-[1200px]"> 
+      <div className="flex flex-col p-6 pt-4 xs:pt-6 gap-8 w-full lg:w-[calc(100dvw-var(--sidebar-width))] 2xl:h-screen 2xl:min-h-[1200px]"> 
         <div className="flex flex-col gap-8 md:flex-row md:gap-4">
           <div className="flex flex-col gap-8 md:flex-row md:gap-4">
-            <h2 className="text-1xl">Location:</h2>
+            <h2 className="text-2xl">Location:</h2>
             <LocationDropDown location={location}
               setLocation={setLocation}
               mode={mode} setMode={setMode}
